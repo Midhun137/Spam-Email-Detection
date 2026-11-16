@@ -1,0 +1,6 @@
+From: dev-list@opensource.org
+Subject: Bug report #1029: NullPointerException in parser
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+The parser throws NPE when encountering truncated bytes at line 42. Patch attached.

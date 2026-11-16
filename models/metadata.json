@@ -1,0 +1,25 @@
+{
+  "model_type": "SoftVotingClassifier",
+  "sub_estimators": [
+    "MultinomialNB",
+    "LogisticRegression",
+    "CalibratedClassifierCV(LinearSVC)"
+  ],
+  "voting": "soft",
+  "weights": [
+    1.0,
+    0.25,
+    1.5
+  ],
+  "feature_groups": [
+    "text_tfidf_1_2_ngrams",
+    "sender_domain_ohe",
+    "message_characteristics_scaled"
+  ],
+  "train_samples": 3632,
+  "test_samples": 901,
+  "strongest_individual_classifier": "Calibrated Linear SVM",
+  "best_individual_f1": 0.9665,
+  "ensemble_f1": 0.9713,
+  "random_state": 42
+}

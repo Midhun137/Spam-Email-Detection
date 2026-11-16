@@ -1,0 +1,68 @@
+{
+  "Text Only": {
+    "accuracy": 0.9745,
+    "precision": 0.9696,
+    "recall": 0.9608,
+    "f1": 0.9652,
+    "true_negatives": 559,
+    "false_positives": 10,
+    "false_negatives": 13,
+    "true_positives": 319,
+    "confusion_matrix": [
+      [
+        559,
+        10
+      ],
+      [
+        13,
+        319
+      ]
+    ],
+    "roc_auc": 0.9973,
+    "average_precision": 0.9954
+  },
+  "Text + Sender": {
+    "accuracy": 0.97,
+    "precision": 0.9664,
+    "recall": 0.9518,
+    "f1": 0.959,
+    "true_negatives": 558,
+    "false_positives": 11,
+    "false_negatives": 16,
+    "true_positives": 316,
+    "confusion_matrix": [
+      [
+        558,
+        11
+      ],
+      [
+        16,
+        316
+      ]
+    ],
+    "roc_auc": 0.9978,
+    "average_precision": 0.9963
+  },
+  "Text + Sender + Message Characteristics": {
+    "accuracy": 0.9789,
+    "precision": 0.9757,
+    "recall": 0.9669,
+    "f1": 0.9713,
+    "true_negatives": 561,
+    "false_positives": 8,
+    "false_negatives": 11,
+    "true_positives": 321,
+    "confusion_matrix": [
+      [
+        561,
+        8
+      ],
+      [
+        11,
+        321
+      ]
+    ],
+    "roc_auc": 0.9968,
+    "average_precision": 0.9941
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "initial_count": 4651,
+  "cleaned_count": 4533,
+  "conflicting_duplicates_removed": 0,
+  "exact_duplicates_removed": 118,
+  "ham_count": 2722,
+  "spam_count": 1811,
+  "spam_percentage": 39.95,
+  "missing_subject_count": 17,
+  "missing_body_count": 16,
+  "missing_sender_count": 20,
+  "num_near_duplicate_groups": 4461
+}

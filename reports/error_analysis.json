@@ -1,0 +1,128 @@
+{
+  "total_false_positives": 8,
+  "total_false_negatives": 11,
+  "sample_false_positives": [
+    {
+      "index": 135,
+      "true_label": "Ham (0)",
+      "predicted_label": "Spam (1)",
+      "estimated_spam_prob": 0.5264,
+      "subject_summary": "Re: From salon.com - Forbidden thoughts about 9/11",
+      "sender_domain": "yahoo.com",
+      "has_html": 1,
+      "url_count": 1,
+      "exclamation_count": 2,
+      "reason_pattern": "Legitimate email with promotional/newsletter tone, HTML formatting, or high URL/link frequency."
+    },
+    {
+      "index": 521,
+      "true_label": "Ham (0)",
+      "predicted_label": "Spam (1)",
+      "estimated_spam_prob": 0.7505,
+      "subject_summary": "<no subject>",
+      "sender_domain": "<missing>",
+      "has_html": 0,
+      "url_count": 0,
+      "exclamation_count": 0,
+      "reason_pattern": "Legitimate email with promotional/newsletter tone, HTML formatting, or high URL/link frequency."
+    },
+    {
+      "index": 549,
+      "true_label": "Ham (0)",
+      "predicted_label": "Spam (1)",
+      "estimated_spam_prob": 0.8736,
+      "subject_summary": "Slang of the Day! > \"blimp\"",
+      "sender_domain": "dli.com",
+      "has_html": 1,
+      "url_count": 2,
+      "exclamation_count": 5,
+      "reason_pattern": "Legitimate email with promotional/newsletter tone, HTML formatting, or high URL/link frequency."
+    },
+    {
+      "index": 552,
+      "true_label": "Ham (0)",
+      "predicted_label": "Spam (1)",
+      "estimated_spam_prob": 0.8074,
+      "subject_summary": "Back to School with Buy4Now",
+      "sender_domain": "buy4now.ie",
+      "has_html": 1,
+      "url_count": 21,
+      "exclamation_count": 7,
+      "reason_pattern": "Legitimate email with promotional/newsletter tone, HTML formatting, or high URL/link frequency."
+    },
+    {
+      "index": 558,
+      "true_label": "Ham (0)",
+      "predicted_label": "Spam (1)",
+      "estimated_spam_prob": 0.6369,
+      "subject_summary": "WORD A DAY - \"coruscate\" - 8/20/02",
+      "sender_domain": "shagmail.com",
+      "has_html": 0,
+      "url_count": 11,
+      "exclamation_count": 12,
+      "reason_pattern": "Legitimate email with promotional/newsletter tone, HTML formatting, or high URL/link frequency."
+    }
+  ],
+  "sample_false_negatives": [
+    {
+      "index": 577,
+      "true_label": "Spam (1)",
+      "predicted_label": "Ham (0)",
+      "estimated_spam_prob": 0.2136,
+      "subject_summary": "[ILUG] (no subject)",
+      "sender_domain": "totalise.co.uk",
+      "has_html": 0,
+      "url_count": 1,
+      "exclamation_count": 0,
+      "reason_pattern": "Short or obfuscated spam message lacking common spam trigger vocabulary or masquerading as discussion."
+    },
+    {
+      "index": 583,
+      "true_label": "Spam (1)",
+      "predicted_label": "Ham (0)",
+      "estimated_spam_prob": 0.2004,
+      "subject_summary": "WebDesignHQ Newsletter",
+      "sender_domain": "carrey.adgrafix.com",
+      "has_html": 0,
+      "url_count": 3,
+      "exclamation_count": 3,
+      "reason_pattern": "Short or obfuscated spam message lacking common spam trigger vocabulary or masquerading as discussion."
+    },
+    {
+      "index": 595,
+      "true_label": "Spam (1)",
+      "predicted_label": "Ham (0)",
+      "estimated_spam_prob": 0.4882,
+      "subject_summary": "Memory loss?",
+      "sender_domain": "keromail.com",
+      "has_html": 1,
+      "url_count": 2,
+      "exclamation_count": 0,
+      "reason_pattern": "Short or obfuscated spam message lacking common spam trigger vocabulary or masquerading as discussion."
+    },
+    {
+      "index": 624,
+      "true_label": "Spam (1)",
+      "predicted_label": "Ham (0)",
+      "estimated_spam_prob": 0.1272,
+      "subject_summary": "Powerball Results Saturday September 14, 2002 Estimated Jack",
+      "sender_domain": "powerballinfo.cjb.net",
+      "has_html": 0,
+      "url_count": 2,
+      "exclamation_count": 2,
+      "reason_pattern": "Short or obfuscated spam message lacking common spam trigger vocabulary or masquerading as discussion."
+    },
+    {
+      "index": 630,
+      "true_label": "Spam (1)",
+      "predicted_label": "Ham (0)",
+      "estimated_spam_prob": 0.2751,
+      "subject_summary": "English Well for you?",
+      "sender_domain": "abptrade.com.br",
+      "has_html": 0,
+      "url_count": 1,
+      "exclamation_count": 0,
+      "reason_pattern": "Short or obfuscated spam message lacking common spam trigger vocabulary or masquerading as discussion."
+    }
+  ]
+}
